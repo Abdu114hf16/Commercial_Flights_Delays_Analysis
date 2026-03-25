@@ -23,6 +23,9 @@ This dashboard heavily utilizes Power BI's advanced analytical and AI features:
 * **Seasonality & Forecasting:** Delays follow a highly volatile, repeating weekly cycle with a slight overall downward trend Year-over-Year.
 * **Flight Recommendations:** Passengers seeking to minimize delay risk should prioritize morning or red-eye flights. The lowest predicted delay probabilities (37%) were found on midnight departures via specific airports such as JFK and ISP, specific airlines such as United States Airways and Unique Air Lines Inc.
 
+## Report Preview
+*(Note: View the full report in the `CDF_Report.pdf` file).*
+
 ## Tools & Technologies
 * **Power BI:** Data Modeling, DAX, Power Query, AI Visuals (Smart Narratives, Key Influencers, Anomalies, Forecasting), Azure Maps.
 * **Analytical Concepts:** Linear Regression, Clustering, Time-Series Analysis, Anomaly detection, Predictive Probability.
