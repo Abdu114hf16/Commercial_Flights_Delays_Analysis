@@ -34,3 +34,41 @@ This dashboard heavily utilizes Power BI's advanced analytical and AI features:
 1. Download the `.pbix` file from this repository.
 2. Open it in Power BI Desktop.
 3. Navigate through the bottom tabs to view the interactive visuals, the predictive machine learning models, and the final executive conclusions.
+
+## Data source and scope
+
+A full year of commercial departures from **New York airports in 2021**, in
+`datasets/`, joined to reference tables describing the airports and airlines.
+
+## About the stakeholder in this project
+
+This is an independent project worked from a **scenario brief**. The brief
+supplies a hypothetical aviation authority as the stakeholder the analysis is
+addressed to. That authority is part of the exercise: no organisation
+commissioned this work, and nothing here was delivered to a client.
+
+## Limitations
+
+- One year, one region. Nothing transfers to another period or network without
+  being refit, and **2021 was not an ordinary year for air travel**.
+- The influence and regression results are **associations**. The analysis
+  identifies what moves together, not what causes what.
+- Weather, air-traffic constraints, aircraft rotation and schedule changes are
+  not in the dataset, and they are among the largest real drivers of delay.
+- The forecast projects the existing weekly pattern forward. It does not
+  anticipate events or disruptions, and its confidence interval is wide.
+- The satisfaction threshold was derived for one season. Applying it year-round
+  reads more from the regression than it says.
+- The lowest predicted delay probability available was **37%**. The flight
+  recommendation is relative, not safe.
+
+## Case study
+
+A full write-up: the business question, the method, the evidence, and what the
+result does not support.
+
+<https://alshammari.dev/projects/commercial-flights-delays/>
+
+## License
+
+MIT. See [LICENSE](LICENSE).
